@@ -1,0 +1,32 @@
+Design Patterns ----
+
+Creational Patterns
+(abstracting object-instantiation process)
+    - factory method
+    - builder
+    - abstract factory
+    - singleton
+    - prototype
+
+Structural Patterns
+(how objects/classes can combine)
+    - adaptor
+    - decorator
+    - proxy
+    - bridge
+    - facade
+    - composite
+    - flyweight
+
+Behavioral Patterns
+(communication between objects)
+    - command
+    - mediator
+    - strategy
+    - template method
+    - interpreter
+    - observer
+    - chain of responsibility
+    - iterator
+    - state
+    - visitor
