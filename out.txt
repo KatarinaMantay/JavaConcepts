@@ -1,0 +1,4 @@
+0 Hi my name is Kat!
+1 I love to code in java :)
+2 This is an example of file writing!
+
