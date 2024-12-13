@@ -6,7 +6,7 @@ public class HashSetEx {
     public static void main(String[] args) {
 
         // how we create a hashset object
-        HashSet<Integer> hashSet = new HashSet<Integer>();
+        HashSet<Integer> hashSet = new HashSet<>();
 
         // add to hashSet
         hashSet.add(2);

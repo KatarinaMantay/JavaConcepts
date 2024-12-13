@@ -10,7 +10,7 @@ public class WeatherData implements Subject {
 
 	
 	public WeatherData() {
-		observers = new ArrayList<Observer>();
+		observers = new ArrayList<>();
 	}
 
 	public void registerObserver(Observer o) {
