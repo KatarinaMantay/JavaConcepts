@@ -23,4 +23,8 @@ public class Pet {
     public String getName(){
         return name;
     }
+
+    void makeSound() {
+        System.out.println("Some generic animal sound");
+    }
 }

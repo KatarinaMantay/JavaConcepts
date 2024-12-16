@@ -3,14 +3,16 @@ package dev.kataray.javaconcepts.polymorphism;
 public class Main {
     public static void main(String[] args) {
 
-        Pet pet = new Pet("sparky", 10, 2005);
-        System.out.println(pet.getName());
-        pet.setName("dingdong");
-        System.out.println(pet.getName());
-
+        // polymorphism here is how i am making a dog of type PET
+        // by doing this, i can call pets methods and such, however if i overide methods in my
+        // DOG class then those are the ones that will be called...
         Pet dog = new Dog("barky", 10, 2004, "poodle");
-        Dog doggy = new Dog("stinker", 9, 2004, "poodle");
+        Pet somePet = new Pet("stinker", 9, 2004);
         dog.setName("woofy");
         System.out.println(dog.getName());
+
+        // for example, dog.makeSound() since overiden in Dog class, will output woof woof
+        dog.makeSound();
+        somePet.makeSound();
     }
 }
