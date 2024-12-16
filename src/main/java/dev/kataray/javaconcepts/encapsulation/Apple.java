@@ -1,6 +1,7 @@
 package dev.kataray.javaconcepts.encapsulation;
 
 public class Apple extends Fruit {
+    // NOTE private variables
     private int seeds;
     private String type;
     private String colour;
@@ -12,6 +13,7 @@ public class Apple extends Fruit {
         this.colour = colour;
     }
 
+    // must have getters and setters
     public int getSeeds() {
         return seeds;
     }
