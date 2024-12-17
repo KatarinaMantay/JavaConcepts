@@ -6,7 +6,7 @@ public class Main {
         // polymorphism here is how i am making a dog of type PET
         // by doing this, i can call pets methods and such, however if i overide methods in my
         // DOG class then those are the ones that will be called...
-        Pet dog = new Dog("barky", 10, 2004, "poodle");
+        Dog dog = new Dog("barky", 10, 2004, "poodle");
         Pet somePet = new Pet("stinker", 9, 2004);
         dog.setName("woofy");
         System.out.println(dog.getName());

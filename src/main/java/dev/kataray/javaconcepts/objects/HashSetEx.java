@@ -28,10 +28,9 @@ public class HashSetEx {
 
         // how to print out the set
         System.out.println("The set contains:");
-        Object[] arr = set.toArray();
 
-        for (int i = 0; i < set.toArray().length; i++) {
-            System.out.println(arr[i]);
+        for (Integer element : set) {
+            System.out.println(element);
         }
     }
 }

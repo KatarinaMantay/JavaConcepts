@@ -1,5 +1,12 @@
 package dev.kataray.javaconcepts.interfaces;
 
+/*
+Specify a contract that other classes can implement.
+The contract defines abstract methods (methods without a body) that the implementing classes must define.
+Interfaces allow you to define behavior that can be shared across different classes
+A way to define what a class should do without specifying how it should do it.
+ */
+
 interface PaymentProcessor {
     void processPayment(double amount); // Abstract method
 }
