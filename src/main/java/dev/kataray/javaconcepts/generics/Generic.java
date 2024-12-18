@@ -11,7 +11,6 @@ public class Generic <T> {
 
     public void listContents() {
         System.out.println("contents are...");
-
         for(T item : list) {
             System.out.println(item);
         }
